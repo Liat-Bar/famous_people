@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bona+Nova&display=swap');
+body{
+background-image: url(./img/monye.jpg); 
+background-size: 100%;  
+ text-align: center;
+}
+h1{
+    font-size: 100px;
+text-shadow: 5px 2px 7px rgb(0, 89, 255);
+color: rgb(32, 32, 36);
+
+}
+#container{
+    display: flex;
+    justify-content: space-around;
+    width: 2200px;
+    height: 820px;
+    margin: auto;
+}
+.famousPeopleName{
+    font-size: 40px;
+    text-shadow: 5px 2px 7px rgb(4, 78, 33);
+}
+.famousPeopleWorth{
+font-size: 45px;
+text-shadow: 5px 2px 7px rgb(78, 4, 10);
+}
+.famousPeopleSource{
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 5px 2px 7px rgb(28, 123, 187);
+}
+.famousPeopleImage{
+    width: 300px;
+    border-radius: 25px;
+}
+.famousPeopleBtn{
+    font-size: 23px;
+    background-color: rgb(121, 7, 7);
+    color: aliceblue;
+    border: 1px solid aliceblue;
+    border-radius: 7px;
+    padding: 5px;
+    margin: 20px;
+}
+.famousPeopleBtn:hover{
+    font-size: 30px;
+}
+.card{
+    background-color: rgba(4, 53, 18, 0.123);
+    border-radius: 20px;
+    padding: 30px;
+}
