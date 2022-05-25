@@ -47,8 +47,8 @@ function start(obj) {
     famousPeopleBtn = document.querySelectorAll(".famousPeopleBtn");
     let count = 0;
     obj.forEach((w) => {
-        for (const [kay, value] of Object.entries(w)) {
-            switch (kay) {
+        for (const [key, value] of Object.entries(w)) {
+            switch (key) {
                 case "name":
                     famousPeopleName[count].innerText = value;
                     break;
